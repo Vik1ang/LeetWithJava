@@ -7,14 +7,9 @@ import java.util.Stack;
  * @author Channing
  * @URL https://leetcode.com/problems/range-sum-of-bst/
  */
-public class Solution {
-
-    int ans;
+public class Solution2 {
 
     public int rangeSumBST(TreeNode root, int low, int high) {
-        /*ans = 0;
-        dfs(root, low, high);
-        return ans;*/
         int res = 0;
         Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
@@ -33,20 +28,5 @@ public class Solution {
             }
         }
         return res;
-    }
-
-    // recursion version
-    private void dfs(TreeNode node, int low, int high) {
-        if (node != null) {
-            if (low <= node.val && node.val <= high) {
-                ans += node.val;
-            }
-            if (low < node.val) {
-                dfs(node.left, low, high);
-            }
-            if (node.val < high) {
-                dfs(node.right, low, high);
-            }
-        }
     }
 }
