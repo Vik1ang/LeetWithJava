@@ -12,8 +12,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class TreeNode {
     int val;
-    tree.easy.q617.TreeNode left;
-    tree.easy.q617.TreeNode right;
+    TreeNode left;
+    TreeNode right;
 
     TreeNode(int val) {
         this.val = val;
