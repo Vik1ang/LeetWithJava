@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author Vikiang
- * @URL
+ * @URL https://leetcode.com/problems/n-ary-tree-preorder-traversal/
  */
 public class Solution2 {
     public List<Integer> preorder(Node root) {

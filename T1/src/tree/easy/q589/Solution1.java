@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author Vikiang
- * @URL
+ * @URL https://leetcode.com/problems/n-ary-tree-preorder-traversal/
  */
 public class Solution1 {
     ArrayList<Integer> res;
