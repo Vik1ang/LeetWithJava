@@ -20,9 +20,7 @@ public class Solution2 {
             Node node = stack.pollLast();
             output.add(node.val);
             Collections.reverse(node.children);
-            for (Node item : node.children) {
-                stack.add(item);
-            }
+            stack.addAll(node.children);
         }
         return output;
     }
