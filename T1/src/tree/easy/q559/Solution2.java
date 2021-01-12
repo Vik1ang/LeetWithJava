@@ -5,7 +5,7 @@ import java.util.Queue;
 
 /**
  * @author Vikiang
- * @URL
+ * @URL https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
  */
 public class Solution2 {
     public int maxDepth(Node root) {
