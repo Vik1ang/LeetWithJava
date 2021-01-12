@@ -22,11 +22,7 @@ public class Solution2 {
             while (count > 0) {
                 count--;
                 Node cur = queue.poll();
-                for (Node node : cur.children) {
-                    if (node != null) {
-                        queue.add(node);
-                    }
-                }
+                queue.addAll(cur.children);
             }
         }
         return depth;
