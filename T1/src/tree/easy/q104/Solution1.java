@@ -1,5 +1,7 @@
 package tree.easy.q104;
 
+import tree.util.TreeNode;
+
 /**
  * @author Vikiang
  * @URL https://leetcode.com/problems/maximum-depth-of-binary-tree/

@@ -1,5 +1,7 @@
 package tree.easy.q783;
 
+import tree.util.TreeNode;
+
 import java.util.Stack;
 
 /**

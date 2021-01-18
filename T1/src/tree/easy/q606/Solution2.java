@@ -1,5 +1,7 @@
 package tree.easy.q606;
 
+import tree.util.TreeNode;
+
 import java.util.HashSet;
 import java.util.Stack;
 

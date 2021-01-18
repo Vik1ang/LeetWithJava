@@ -1,5 +1,7 @@
 package tree.easy.q897;
 
+import tree.util.TreeNode;
+
 import java.util.ArrayList;
 
 /**

@@ -1,5 +1,7 @@
 package tree.easy.q1022;
 
+import tree.util.TreeNode;
+
 /**
  * @author Vikiang
  * @URL https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/

@@ -6,6 +6,6 @@ package tree.easy.q108;
  */
 public class q108 {
     public static void main(String[] args) {
-
+        System.out.println(new Solution1().sortedArrayToBST(new int[]{-10, -3, 0, 5, 9}));
     }
 }

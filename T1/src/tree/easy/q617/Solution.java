@@ -1,5 +1,7 @@
 package tree.easy.q617;
 
+import tree.util.TreeNode;
+
 /**
  * @author Vikiang
  * @URL

@@ -1,5 +1,7 @@
 package tree.easy.q530;
 
+import tree.util.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 

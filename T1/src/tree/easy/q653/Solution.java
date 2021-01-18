@@ -1,5 +1,7 @@
 package tree.easy.q653;
 
+import tree.util.TreeNode;
+
 /**
  * @author Vikiang
  * @URL https://leetcode.com/problems/two-sum-iv-input-is-a-bst/

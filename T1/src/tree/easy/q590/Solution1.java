@@ -1,5 +1,7 @@
 package tree.easy.q590;
 
+import tree.util.Node;
+
 import java.util.ArrayList;
 import java.util.List;
 

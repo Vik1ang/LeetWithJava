@@ -1,16 +1,23 @@
 package tree.easy.q938;
 
 
+import tree.util.TreeHelper;
+import tree.util.TreeNode;
+
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @author Channing
  * @URL https://leetcode.com/problems/range-sum-of-bst/
  */
 public class q938 {
-    static int low = 7;
-    static int high = 15;
-
     public static void main(String[] args) {
+        TreeHelper treeHelper = new TreeHelper();
+        TreeNode treeRoot = new TreeNode();
+        List<Integer> input = Arrays.asList(10, 5, 15, 3, 7, null, 18);
+        treeHelper.createTree(treeRoot, input);
+
+        System.out.println(new Solution1().rangeSumBST(treeRoot, 7, 15));
     }
-
-
 }

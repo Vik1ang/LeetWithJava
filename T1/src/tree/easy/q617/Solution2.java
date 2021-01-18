@@ -1,6 +1,8 @@
 package tree.easy.q617;
 
 
+import tree.util.TreeNode;
+
 import java.util.LinkedList;
 
 /**

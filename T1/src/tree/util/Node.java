@@ -1,4 +1,6 @@
-package tree.easy.q559;
+package tree.util;
+
+import lombok.ToString;
 
 import java.util.List;
 
@@ -6,6 +8,8 @@ import java.util.List;
  * @author Vikiang
  * @URL https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
  */
+
+@ToString
 public class Node {
     public int val;
     public List<Node> children;

@@ -1,5 +1,7 @@
 package tree.easy.q559;
 
+import tree.util.Node;
+
 import java.util.LinkedList;
 import java.util.Queue;
 

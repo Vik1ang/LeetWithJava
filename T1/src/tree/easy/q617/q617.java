@@ -1,37 +1,26 @@
 package tree.easy.q617;
 
+import tree.util.TreeHelper;
+import tree.util.TreeNode;
+
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @author Channing
  * @URL https://leetcode.com/problems/merge-two-binary-trees/
  */
 public class q617 {
     public static void main(String[] args) {
-        TreeNode root1 = new TreeNode(1);
-        TreeNode root1LeftChild1 = new TreeNode(3);
-        root1.left = root1LeftChild1;
-        root1.right = new TreeNode(2);
-        root1LeftChild1.left = new TreeNode(5);
+        TreeHelper treeHelper = new TreeHelper();
+        TreeNode treeRoot1 = new TreeNode();
+        List<Integer> input1 = Arrays.asList(1, 3, 2, 5);
+        treeHelper.createTree(treeRoot1, input1);
+        TreeNode treeRoot2 = new TreeNode();
+        List<Integer> input2 = Arrays.asList(2, 1, 3, null, 4, null, 7);
+        treeHelper.createTree(treeRoot2, input2);
 
-        TreeNode root2 = new TreeNode(2);
-        TreeNode root2LeftChild1 = new TreeNode(1);
-        TreeNode root2RightChild1 = new TreeNode(3);
-        root2.left = root2LeftChild1;
-        root2.right = root2RightChild1;
-        root2LeftChild1.right = new TreeNode(4);
-        root2RightChild1.right = new TreeNode(7);
-
-        // make your own solution
-        TreeNode newTree = new Solution().mergeTrees(root1, root2);
-
-        preorder(newTree);
-
+        treeHelper.printTree(new Solution1().mergeTrees(treeRoot1, treeRoot2));
     }
 
-    public static void preorder(TreeNode node) {
-        if (node != null) {
-            System.out.print(node.val + " ");
-            preorder(node.left);
-            preorder(node.right);
-        }
-    }
 }

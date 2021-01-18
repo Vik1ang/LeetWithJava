@@ -1,6 +1,8 @@
 package tree.easy.q617;
 
 
+import tree.util.TreeNode;
+
 /**
  * @author Channing
  * @URL https://leetcode.com/problems/merge-two-binary-trees/

@@ -1,5 +1,7 @@
 package tree.easy.q107;
 
+import tree.util.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

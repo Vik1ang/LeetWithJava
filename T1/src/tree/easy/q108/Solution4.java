@@ -1,5 +1,7 @@
 package tree.easy.q108;
 
+import tree.util.TreeNode;
+
 import java.util.Stack;
 
 /**

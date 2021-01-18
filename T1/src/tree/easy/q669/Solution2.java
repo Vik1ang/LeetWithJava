@@ -1,5 +1,7 @@
 package tree.easy.q669;
 
+import tree.util.TreeNode;
+
 /**
  * @author Vikiang
  * @URL  https://leetcode.com/problems/trim-a-binary-search-tree/

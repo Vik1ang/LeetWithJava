@@ -1,5 +1,7 @@
 package tree.easy.q897;
 
+import tree.util.TreeNode;
+
 /**
  * @author Vikiang
  * @URL https://leetcode.com/problems/increasing-order-search-tree/

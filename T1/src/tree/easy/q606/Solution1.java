@@ -1,5 +1,7 @@
 package tree.easy.q606;
 
+import tree.util.TreeNode;
+
 /**
  * @author Vikiang
  * @URL https://leetcode.com/problems/construct-string-from-binary-tree/

@@ -1,5 +1,7 @@
 package tree.easy.q589;
 
+import tree.util.Node;
+
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
