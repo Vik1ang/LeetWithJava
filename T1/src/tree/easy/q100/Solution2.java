@@ -1,5 +1,7 @@
 package tree.easy.q100;
 
+import tree.util.TreeNode;
+
 /**
  * @author Vikiang
  * @URL https://leetcode.com/problems/same-tree/
