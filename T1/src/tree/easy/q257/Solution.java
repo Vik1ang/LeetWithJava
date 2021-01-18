@@ -1,5 +1,7 @@
 package tree.easy.q257;
 
+import tree.util.TreeNode;
+
 import java.util.List;
 
 /**
