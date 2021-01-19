@@ -24,7 +24,9 @@ public class Solution2 {
             while (count > 0) {
                 count--;
                 Node cur = queue.poll();
-                queue.addAll(cur.children);
+                if (cur.children != null) {
+                    queue.addAll(cur.children);
+                }
             }
         }
         return depth;

@@ -23,11 +23,11 @@ public class Solution1 {
             return;
         }
         res.add(root.val);
-        int size = root.children.size();
-
-        for (int i = 0; i < size; i++) {
-            inorder(root.children.get(i));
+        if (root.children != null) {
+            int size = root.children.size();
+            for (int i = 0; i < size; i++) {
+                inorder(root.children.get(i));
+            }
         }
-
     }
 }

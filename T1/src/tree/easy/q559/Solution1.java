@@ -12,9 +12,11 @@ public class Solution1 {
             return 0;
         }
         int max = 0;
-        for (Node node : root.children) {
-            int temp = maxDepth(node);
-            max = Math.max(max, temp);
+        if (root.children != null) {
+            for (Node node : root.children) {
+                int temp = maxDepth(node);
+                max = Math.max(max, temp);
+            }
         }
         return max + 1;
     }

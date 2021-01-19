@@ -21,8 +21,10 @@ public class Solution2 {
         while (!stack.isEmpty()) {
             Node node = stack.pollLast();
             output.add(node.val);
-            Collections.reverse(node.children);
-            stack.addAll(node.children);
+            if (node.children != null) {
+                Collections.reverse(node.children);
+                stack.addAll(node.children);
+            }
         }
         return output;
     }

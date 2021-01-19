@@ -20,7 +20,9 @@ public class Solution2 {
         while (!stack.isEmpty()) {
             Node node = stack.pollLast();
             output.addFirst(node.val);
-            stack.addAll(node.children);
+            if (node.children != null) {
+                stack.addAll(node.children);
+            }
         }
         return output;
     }

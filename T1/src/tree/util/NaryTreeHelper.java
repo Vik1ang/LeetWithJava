@@ -38,17 +38,26 @@ public class NaryTreeHelper {
         }
     }
 
+    // TODO: do not finish yet, still have bug on print n ary tree
     public void printTree(Node root) {
-        Stack<Node> stack = new Stack<>();
-        stack.push(root);
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+        ArrayList<Integer> arrayList = new ArrayList<>();
 
-        while (!stack.isEmpty()) {
-            Node node = stack.pop();
-            if (node.children != null) {
-                Collections.reverse(node.children);
-                stack.addAll(node.children);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                Node node = queue.poll();
+                arrayList.add(node.val);
+                if (node.children != null) {
+                    for (Node n : node.children) {
+                        queue.offer(n);
+                    }
+                }
             }
-            System.out.print(node.val + " ");
+            arrayList.add(null);
         }
+
+        System.out.println(Arrays.toString(arrayList.toArray()));
     }
 }

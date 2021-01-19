@@ -21,9 +21,10 @@ public class Solution1 {
         if (node == null) {
             return;
         }
-        // int size = node.children.size();
-        for (Node n : node.children) {
-            helperFunc(n);
+        if (node.children != null) {
+            for (Node n : node.children) {
+                helperFunc(n);
+            }
         }
         res.add(node.val);
     }
