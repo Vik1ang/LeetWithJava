@@ -48,7 +48,6 @@ public class TreeHelper {
         if (root.val == val) {
             return root;
         }
-        boolean flag = false;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
 
