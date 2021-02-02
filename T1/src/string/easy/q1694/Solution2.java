@@ -1,0 +1,11 @@
+package string.easy.q1694;
+
+/**
+ * @author Vikiang
+ * @URL https://leetcode.com/problems/reformat-phone-number/
+ */
+public class Solution2 {
+    public String reformatNumber(String number) {
+        return null;
+    }
+}
