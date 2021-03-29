@@ -1,15 +1,16 @@
-package BitManipulation.easy;
+package BitManipulation.easy.q191;
 
 /**
  * @author Vikiang
  * @URL https://leetcode.com/problems/number-of-1-bits/
  */
-public class Solution3 {
+public class Solution2 {
     public int hammingWeight(int n) {
         int ret = 0;
-        while (n != 0) {
-            n &= n - 1;
-            ret++;
+        for (int i = 0; i < 32; i++) {
+            if ((n & (1 << i)) != 0) {
+                ret++;
+            }
         }
         return ret;
     }

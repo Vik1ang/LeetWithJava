@@ -1,4 +1,4 @@
-package BitManipulation.easy;
+package BitManipulation.easy.q191;
 
 /**
  * @author Vikiang
