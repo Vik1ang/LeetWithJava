@@ -6,6 +6,6 @@ package DynamicProgramming.medium.q313;
  */
 public class q313 {
     public static void main(String[] args) {
-        System.out.println(new Solution1().nthSuperUglyNumber(12, new int[]{2, 7, 13, 19}));
+        System.out.println(new Solution3().nthSuperUglyNumber(5, new int[]{2, 7, 11, 13}));
     }
 }
