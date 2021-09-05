@@ -1,4 +1,4 @@
-package Math.easy;
+package Math.easy.q7;
 
 /**
  * @author Vikiang
